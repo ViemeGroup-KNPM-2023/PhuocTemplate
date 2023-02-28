@@ -101,7 +101,7 @@
 .SlideBar__left__foodTable{
     display: flex;
     background-color: rgba(219, 231, 245, 1);
-    height: 20%;
+    height: 120px;
     width: 96%;
     padding: 8px;
     border-radius: 10px;
@@ -154,10 +154,10 @@
     font-family: 'Roboto', Arial, sans-serif;
 }
 Body{
-    background-color: aqua;
+    background-color: #ACC3E0;
 }
 #root{
-    background-color: aqua;
+    background-color: #ACC3E0;
 }
 .NavBar {
     height: 56px;
@@ -249,9 +249,7 @@ Body{
     border-radius: 10px;
     box-shadow: 2px 2px 4px #00000094;
 }
-.color{
-    background-color: #7cc3e7;
-}
+
 
 .SlideBar__left__Table h3 {
     line-height: 40px;
@@ -307,7 +305,7 @@ Body{
     box-shadow: 3px 3px 3px #00000094;
 }
 .first{
-    background-color: #7cc3e7;
+    background-color: rgba(219, 231, 245, 1);
 }
 .SlideBar__right img{
     width: 80px;
@@ -471,4 +469,30 @@ Body{
 }
 .boxInfo__right__detail{
     margin-left: 200px;
+}
+.colorboxsyellow:hover,
+.colorboxsgreen:hover,
+.colorboxsblack:hover {
+    cursor: pointer;
+    border: 3px solid rgb(255, 0, 0);
+}
+.SlideBar__left__foodTable:hover{
+    cursor: pointer;
+    background-color: rgba(219, 231, 245, 0.2);
+}
+.SlideBar__left__Table:hover{
+    cursor: pointer;
+    background-color: rgba(219, 231, 245, 0.2) !important;
+}
+.color{
+    background-color: aqua;
+}
+.first{
+    background-color: aqua;
+}
+.SlideBar__left__detailTable{
+    overflow-y: scroll;  
+}
+.SlideBar__left__detailTable__scroll{
+    height: 1000px;
 }
